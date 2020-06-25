@@ -1,0 +1,11 @@
+netCalculatorService.taxRates:
+  UA: 0.20
+  AA: 0.21
+  BB: 0.22
+  CC: 0.23
+  DD: 0.24
+  EE: 0.0001
+  FR: 0.20
+  DE: 0.19
+  LOW_TAX: -0.19
+  HIGH_TAX: 1.19

@@ -1,0 +1,18 @@
+GET http://localhost:8080/netPrice?grossPrice=100&countryIso=FR
+
+###
+GET http://localhost:8080/netPrice?grossPrice=100&countryIso=DE
+
+###
+GET http://localhost:8080/netPrice?grossPrice=100&countryIso=LOW_TAX
+
+###
+GET http://localhost:8080/netPrice?grossPrice=100&countryIso=HIGH_TAX
+
+###
+GET http://localhost:8080/netPrice?grossPrice=100&countryIso=UNKNOWN
+
+###
+GET http://localhost:8080/netPrice?grossPrice=-100&countryIso=DE
+
+###

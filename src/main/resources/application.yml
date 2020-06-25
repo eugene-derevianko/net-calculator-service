@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    include: >
+      taxRatesConfiguration
+
+springdoc:
+  swagger-ui:
+    path: /
+
+netCalculatorService:
+  scalePrecision: 2
+  taxRateValidation:
+    enabled: true
+    minTaxRate: 0.00
+    maxTaxRate: 1.00
